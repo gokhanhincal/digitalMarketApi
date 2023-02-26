@@ -1,0 +1,8 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=53d111c3_002Db4a4_002D4f3a_002D9c6b_002D17b8d912a8d3/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="CreateOrder_With_Same_OrderId_Returns_Conflict" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;Project Location="/Users/hincal/RiderProjects/DigitalMarket/src" Presentation="&amp;lt;tests&amp;gt;" /&gt;
+&lt;/SessionState&gt;</s:String>
+	
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=b66931d2_002Def14_002D4529_002Db9d6_002Db6abd1755e16/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Should_show_sucess_message_when_value_is_saved_into_repository #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;Project Location="/Users/hincal/RiderProjects/DigitalMarket/src/DigitalMarket.UnitTests" Presentation="&amp;lt;tests&amp;gt;\&amp;lt;DigitalMarket.UnitTests&amp;gt;" /&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
