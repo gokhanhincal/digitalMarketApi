@@ -180,7 +180,7 @@ public static class TestData
                 new LineItemDto()
                 {
                     ProductID = "1002",
-                    ProductType = "Website",
+                    ProductType = "PaidSearch",
                     Category = "Regular",
                     Notes = "Notes",
                     AdWordCampaign = new PaidSearchDto()

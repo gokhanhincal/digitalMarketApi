@@ -15,9 +15,8 @@ public class OrdersControllerTests
         var application = new WebApplicationFactory<Program>()
             .WithWebHostBuilder(builder =>
             {
-                builder .ConfigureServices(services =>
+                builder.ConfigureServices(services =>
                 {
-                    // set up servises
                 });
             });
         _client = application.CreateClient();
@@ -26,7 +25,6 @@ public class OrdersControllerTests
     [Fact]
     public async Task Create_order_post_return_created()
     {
-        
         var request = new StringContent(TestData.CreateWebsiteOrderModel(), Encoding.UTF8, "application/json");
         
         var response = await _client.PostAsync("api/v1/orders", request);
@@ -37,7 +35,6 @@ public class OrdersControllerTests
     [Fact]
     public async Task Create_order_post_with_same_orderId_returns_conflict()
     {
-        
         var request1 = new StringContent(TestData.CreateWebsiteOrderWithStaticOrderIdModel(), Encoding.UTF8, "application/json");
         var request2 = new StringContent(TestData.CreateWebsiteOrderWithStaticOrderIdModel(), Encoding.UTF8, "application/json");
         

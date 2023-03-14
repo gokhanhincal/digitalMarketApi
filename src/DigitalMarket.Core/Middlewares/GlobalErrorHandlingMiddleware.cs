@@ -39,12 +39,12 @@ public class GlobalErrorHandlingMiddleware
             message = exception.Message;
             status = HttpStatusCode.BadRequest;
         }
-        if (exceptionType == typeof(BadRequestException))
+        else if (exceptionType == typeof(BadRequestException))
         {
             message = exception.Message;
             status = HttpStatusCode.BadRequest;
         }
-        if (exceptionType == typeof(ConflictException))
+        else if (exceptionType == typeof(ConflictException))
         {
             message = exception.Message;
             status = HttpStatusCode.Conflict;

@@ -16,7 +16,7 @@ public class MappingProfile : Profile
         CreateMap<PaidSearchDto, AdWordCampaign>();
         CreateMap<CreateOrderRequest, Order>()
             .ForMember(c => c.Id, option => option.Ignore())
-            .ForMember(c => c.AdditionalInfo, option => option.Ignore())
+            //.ForMember(c => c.AdditionalInfo, option => option.Ignore())
             .ForMember(c => c.LineItems, opt => opt.MapFrom(src => src.LineItems));
         
         CreateMap<Order, CreateOrderDto>();
